@@ -1,0 +1,198 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: gray;
+    font-size: 7rem;
+    margin-top: 50;
+}
+
+h2 {
+    color: grey;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: grey;
+}
+
+p {
+    line-height: 2;
+}
+
+.texti-yfir {
+    color: white;
+    position: absolute;
+    bottom: 27%;
+    right: 20%;
+  }
+
+  .texti-undir {
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    right: 25%;
+  }
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 8px;
+    width: 4%;
+    margin: 100px auto;
+  }
+
+a {
+   color: white; 
+   margin: 10px 20px;
+   text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.container {
+width: 80%;
+margin: 0 auto;
+}
+
+header {
+    background-color: white;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+    position: relative;
+  }
+  
+nav a {
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+nav a:hover {
+    color: rgb(255, 77, 0);
+  }
+
+.top-container {
+    position: relative;
+}
+
+.middle-container {
+ margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: grey;
+  padding: 40px 0 20px;
+}
+
+.footer-link:hover {
+    color: black;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+}
+
+.one-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.two-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: black;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.fjall {
+    max-width: 100%;
+    max-height: 50%;
+}
+
+.nafn a mynd {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.nafn a mynd {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.btn {
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: orange;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: rgb(255, 149, 0);
+    text-decoration: none;
+  }
